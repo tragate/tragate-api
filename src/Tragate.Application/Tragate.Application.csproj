@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tragate.Domain\Tragate.Domain.csproj" />
+    <ProjectReference Include="..\Tragate.Infra.Data\Tragate.Infra.Data.csproj" />
+    <ProjectReference Include="..\Tragate.Common.Library\Tragate.Common.Library.csproj" />
+  </ItemGroup>
+</Project>

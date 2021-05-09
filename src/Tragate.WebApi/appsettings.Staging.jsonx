@@ -1,0 +1,36 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=185.184.208.32,1453;Database=TragateDBTest;User Id=TrApiTestUser;Password=vV7H-hQ%s+YJZ8EJ;MultipleActiveResultSets=True"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "RedisUrl": "94.101.87.232:6379,password=tragate0803",
+  "ApiUrl": "http://apitest.tragate.com",
+  "ElasticsearchUrl": "http://elasticsearch.tragate.com",
+  "SmtpHostName": "smtp.yandex.com",
+  "SmtpDomainName": "account@tragate.com",
+  "SmtpQuoteDomainName": "quotes@tragate.com",
+  "SmtpDisplayName": "TraGate",
+  "SmtpQuoteDisplayName": "{0} - TraGate",
+  "SmtpPassword": "tr0803",
+  "WebSite": "http://test.tragate.com",
+  "ImageResizerApiUrl": "http://apiresizertest.tragate.com/image-resize?bucketName={0}&key={1}",
+  "AWS": {
+    "Region": "eu-west-1"
+  },
+  "AWS_Access_Key": "AKIAJ4VC5YIBNQHZSKFA",
+  "AWS_Secret_Key": "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",
+  "S3": {
+    "EmailPath": "cdn.tragate.com/assets",
+    "UploadPath": "cdn.tragate.com",
+    "FullImagePath": "cdn.tragate.com/items",
+    "ImagePath": "items/",
+    "CDN": "https://cdn.tragate.com/"
+  }
+}

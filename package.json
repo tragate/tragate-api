@@ -1,0 +1,25 @@
+{
+    "name": "tragate-api",
+    "version": "1.0.0",
+    "description": "tragate api",
+    "scripts": {
+        "test": "dotnet test src/Tragate.Tests/"
+    },
+    "pre-commit": [
+        // "test"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://bilal-tragate@bitbucket.org/tragate-tech/tragate-api.git"
+    },
+    "keywords": [
+        "cqrs/es",
+        "ddd"
+    ],
+    "author": "ninjafx",
+    "license": "MIT",
+    "homepage": "https://bitbucket.org/tragate-tech/tragate-api#readme",
+    "devDependencies": {
+        "pre-commit": "^1.2.2"
+    }
+}
