@@ -28,3 +28,6 @@
 
 ## About:
 The Tragage Api was developed by tragate-tech
+
+## Tragate Numbers
+![Image alt text](./images/tragate_numbers.png)
